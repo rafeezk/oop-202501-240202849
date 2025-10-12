@@ -110,10 +110,10 @@ public class HelloFunctional {
 ## 📸 Hasil Eksekusi
 
 ### 🟦 HelloProcedural.java
-<img width="1920" height="1080" alt="resultshelloprocedural" src="https://github.com/user-attachments/assets/7f886b34-299a-4d1e-814d-fbc8cc2c6712" />
+<img width="1920" height="1080" alt="resultshellooop" src="https://github.com/user-attachments/assets/5434a0df-0221-4d15-a02c-c0e51d0b7c01" />
 
 ### 🟩 HelloOOP.java
-<img width="1920" height="1080" alt="resultshellooop" src="https://github.com/user-attachments/assets/5434a0df-0221-4d15-a02c-c0e51d0b7c01" />
+<img width="1920" height="1080" alt="resultshelloprocedural" src="https://github.com/user-attachments/assets/7f886b34-299a-4d1e-814d-fbc8cc2c6712" />
 
 ### 🟨 HelloFunctional.java
 <img width="1920" height="1080" alt="resultshellofunctional" src="https://github.com/user-attachments/assets/61860422-ef73-482e-b212-54043a510bca" />
@@ -137,20 +137,20 @@ Melalui praktikum ini, saya memahami perbedaan antara paradigma prosedural, OOP,
 
 ## 🎯 Quiz
 
-(1. [Apakah OOP selalu lebih baik dari prosedural?]  
+1. **Apakah OOP selalu lebih baik dari prosedural?**
    **Jawaban:** Tidak selalu. Paradigma OOP memang lebih unggul dalam hal pengelolaan program yang besar dan kompleks karena dapat memisahkan kode menjadi bagian-bagian kecil yang mudah dikelola. Namun, untuk program sederhana atau tugas yang hanya membutuhkan beberapa baris kode, paradigma prosedural bisa lebih efisien karena tidak memerlukan struktur kelas dan objek yang rumit.
 
-2. [Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?]  
+2. **Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?** 
    **Jawaban:** Paradigma fungsional lebih cocok digunakan ketika program berfokus pada pengolahan data, seperti perhitungan matematis, pemrosesan data dalam jumlah besar, atau analisis yang membutuhkan operasi berulang terhadap data. Dengan pendekatan fungsional, kode menjadi lebih ringkas, mudah diuji, dan minim kesalahan karena tidak bergantung pada perubahan variabel atau kondisi tertentu.
 
-3. [Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?]  
+3. **[Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?**
    **Jawaban:** Setiap paradigma memiliki pengaruh berbeda terhadap kemudahan pemeliharaan (maintainability) dan pengembangan (scalability) aplikasi.
    - Paradigma prosedural cenderung sulit dipelihara jika program bertambah besar karena logika program sering bercampur dalam satu alur.
    - Paradigma OOP lebih mudah dikembangkan karena kode tersusun dalam kelas dan objek yang bisa digunakan kembali.
    - Paradigma fungsional meningkatkan keandalan program karena fungsi bersifat independen dan tidak mengubah data di luar fungsinya, sehingga lebih mudah diuji dan dikembangkan secara paralel.
 
-4. [Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?]
+4. **Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?]**
    **Jawaban:** Aplikasi POS (Point of Sale) melibatkan banyak entitas seperti produk, pelanggan, dan transaksi yang saling berhubungan. Dengan menggunakan OOP, setiap entitas dapat dibuat sebagai objek dengan atribut dan perilakunya sendiri. Hal ini membuat struktur program lebih terorganisir, mudah diperluas, dan lebih efisien ketika aplikasi terus berkembang atau mengalami perubahan fitur.
-6. [Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?]
+   
+5. **Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?**
    **Jawaban:** Paradigma fungsional memungkinkan penulisan kode yang lebih ringkas melalui penggunaan lambda expression, stream API, dan fungsi-fungsi bawaan Java. Dengan cara ini, programmer tidak perlu membuat banyak loop atau method tambahan untuk operasi yang sama. Akibatnya, kode menjadi lebih pendek, mudah dibaca, dan lebih sedikit risiko kesalahan berulang.
-   )
