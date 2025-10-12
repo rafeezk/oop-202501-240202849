@@ -8,8 +8,7 @@
 ---
 
 ## 🎯 Tujuan
-Praktikum ini bertujuan agar mahasiswa mampu memahami dan membedakan tiga paradigma utama dalam pemrograman Java, yaitu **Prosedural**, **Berorientasi Objek (OOP)**, dan **Fungsional**.  
-Melalui program sederhana “Hello World, I am [nama]-[nim]”, mahasiswa diharapkan memahami bagaimana setiap paradigma mempengaruhi struktur kode, cara berpikir, dan cara mengelola logika program.
+Praktikum ini bertujuan agar mahasiswa mampu memahami dan membedakan tiga paradigma utama dalam pemrograman Java, yaitu **Prosedural**, **Berorientasi Objek (OOP)**, dan **Fungsional**. Melalui program sederhana “Hello World, I am [nama]-[nim]”, mahasiswa diharapkan memahami bagaimana setiap paradigma mempengaruhi struktur kode, cara berpikir, dan cara mengelola logika program.
 
 ---
 
@@ -140,10 +139,10 @@ Melalui praktikum ini, saya memahami perbedaan antara paradigma prosedural, OOP,
 1. **Apakah OOP selalu lebih baik dari prosedural?**
    **Jawaban:** Tidak selalu. Paradigma OOP memang lebih unggul dalam hal pengelolaan program yang besar dan kompleks karena dapat memisahkan kode menjadi bagian-bagian kecil yang mudah dikelola. Namun, untuk program sederhana atau tugas yang hanya membutuhkan beberapa baris kode, paradigma prosedural bisa lebih efisien karena tidak memerlukan struktur kelas dan objek yang rumit.
 
-2. **Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?** 
+2. **Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?**
    **Jawaban:** Paradigma fungsional lebih cocok digunakan ketika program berfokus pada pengolahan data, seperti perhitungan matematis, pemrosesan data dalam jumlah besar, atau analisis yang membutuhkan operasi berulang terhadap data. Dengan pendekatan fungsional, kode menjadi lebih ringkas, mudah diuji, dan minim kesalahan karena tidak bergantung pada perubahan variabel atau kondisi tertentu.
 
-3. **[Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?**
+3. **Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?**
    **Jawaban:** Setiap paradigma memiliki pengaruh berbeda terhadap kemudahan pemeliharaan (maintainability) dan pengembangan (scalability) aplikasi.
    - Paradigma prosedural cenderung sulit dipelihara jika program bertambah besar karena logika program sering bercampur dalam satu alur.
    - Paradigma OOP lebih mudah dikembangkan karena kode tersusun dalam kelas dan objek yang bisa digunakan kembali.
