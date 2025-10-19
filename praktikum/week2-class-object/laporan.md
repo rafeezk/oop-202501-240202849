@@ -126,8 +126,7 @@ public class MainProduk {
 ```
 
 ### 🖼️ Screenshot
-
-
+<img width="1920" height="1080" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/f76ff13f-f077-487f-80b9-f9432fef5473" />
 
 ## 🔍 Analisis
 
