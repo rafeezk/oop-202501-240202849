@@ -1,16 +1,16 @@
-# Laporan Praktikum Minggu 3  
+# 🧩 Laporan Praktikum Minggu 3  
 ## Topik: Inheritance (Kategori Produk)
 
 ---
 
-### Identitas
+### 🧑‍🎓 Identitas
 **Nama:** Ahmad Rafie Ramadhani Azzaki 
 **NIM:** 240202849
 **Kelas:** 3IKRA
 
 ---
 
-### Tujuan Pembelajaran
+### 🎯 Tujuan Pembelajaran
 - Mahasiswa mampu menjelaskan konsep inheritance (pewarisan class) dalam OOP.  
 - Mahasiswa mampu membuat superclass dan subclass untuk produk pertanian.  
 - Mahasiswa mampu mendemonstrasikan hierarki class melalui contoh kode.  
@@ -19,7 +19,7 @@
 
 ---
 
-### Ringkasan Teori
+### 📚 Ringkasan Teori
 1. **Inheritance** adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi atribut dan method dari class lain.  
 2. **Superclass** adalah class induk yang mendefinisikan atribut umum.  
 3. **Subclass** adalah class turunan yang mewarisi atribut/method superclass dan dapat menambahkan atribut/method baru.  
@@ -28,7 +28,7 @@
 
 ---
 
-### Langkah Praktikum
+### 🧪 Langkah Praktikum
 
 1. **Membuat Superclass `Produk`**
    - Gunakan class `Produk` dari Bab 2 sebagai superclass utama.
