@@ -1,0 +1,12 @@
+@startuml
+actor Kasir
+actor Admin
+rectangle "Agri-POS" {
+Kasir --> (Login)
+Kasir --> (Checkout)
+Kasir --> (Pembayaran)
+Kasir --> (Cetak Struk)
+Admin --> (Kelola Produk)
+Admin --> (Lihat Laporan)
+}
+@enduml

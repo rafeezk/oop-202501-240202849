@@ -1,0 +1,16 @@
+@startuml
+|Kasir|
+start
+:Scan Produk;
+|Sistem|
+:Hitung Total;
+|Kasir|
+:Pilih Metode;
+if (Tunai?) then (Ya)
+:Input Nominal;
+else (Tidak)
+:Proses E-Wallet;
+endif
+:Cetak Struk;
+stop
+@enduml

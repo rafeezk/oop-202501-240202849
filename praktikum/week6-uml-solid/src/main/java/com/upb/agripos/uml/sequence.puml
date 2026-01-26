@@ -1,0 +1,16 @@
+@startuml
+actor Kasir
+participant UI
+participant PaymentService
+participant PaymentMethod
+
+Kasir -> UI : Pilih metode
+UI -> PaymentService : pay()
+PaymentService -> PaymentMethod : pay()
+
+alt Gagal
+PaymentMethod --> PaymentService : error
+else Sukses
+PaymentMethod --> PaymentService : receipt
+end
+@enduml

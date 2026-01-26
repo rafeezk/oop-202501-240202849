@@ -1,0 +1,23 @@
+@startuml
+package product {
+class Product {
+-code:String
+-name:String
+-price:double
+-stock:int
+}
+interface ProductRepository
+class JdbcProductRepository
+class ProductService
+ProductService --> ProductRepository
+JdbcProductRepository ..|> ProductRepository
+}
+
+package payment {
+interface PaymentMethod
+class CashPayment
+class EWalletPayment
+CashPayment ..|> PaymentMethod
+EWalletPayment ..|> PaymentMethod
+}
+@enduml
