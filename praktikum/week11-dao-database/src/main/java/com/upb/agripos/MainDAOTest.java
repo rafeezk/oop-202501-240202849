@@ -1,0 +1,31 @@
+package com.upb.agripos;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import com.upb.agripos.dao.ProductDAO;
+import com.upb.agripos.dao.ProductDAOImpl;
+import com.upb.agripos.model.Product;
+
+public class MainDAOTest {
+    public static void main(String[] args) throws Exception {
+
+        Class.forName("org.postgresql.Driver");
+
+        Connection conn = DriverManager.getConnection(
+            "jdbc:postgresql://localhost:5432/agripos",
+            "raavfy",
+            "Rahf2006"
+        );
+
+        ProductDAO dao = new ProductDAOImpl(conn);
+
+        dao.insert(new Product("P01", "Pupuk Organik", 25000, 10));
+        dao.update(new Product("P01", "Pupuk Organik Premium", 30000, 8));
+
+        Product p = dao.findByCode("P01");
+        System.out.println(p.getName());
+
+        dao.delete("P01");
+        conn.close();
+    }
+}
