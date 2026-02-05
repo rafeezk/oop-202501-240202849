@@ -238,3 +238,45 @@ public class MainExceptionDemo {
 ```
 
 ## Hasil Screenshots
+<img width="1085" height="182" alt="Screenshot 2026-02-05 200508" src="https://github.com/user-attachments/assets/d60f2e97-b75b-4bf8-b1be-ca01a088e825" />
+
+## Analisis
+
+- Program menggunakan custom exception untuk validasi data.
+
+- try–catch digunakan untuk menangani kesalahan.
+
+- Program tidak berhenti saat terjadi error.
+
+- Singleton digunakan untuk membatasi instance ProductService.
+
+- Konsep MVC diterapkan secara sederhana.
+
+- Kendala utama adalah menentukan jenis exception yang tepat.
+
+- Kendala diatasi dengan membuat exception khusus.
+
+## Kesimpulan
+
+Exception handling membantu program menjadi lebih aman dan stabil. Dengan custom exception, kesalahan dapat ditangani secara spesifik dan informatif sehingga meningkatkan kualitas aplikasi.
+
+## Quiz
+1. Jelaskan perbedaan error dan exception.
+
+Jawaban:
+Error adalah kesalahan fatal yang tidak dapat ditangani program, sedangkan exception adalah kesalahan yang masih dapat ditangani dengan mekanisme try–catch.
+
+2. Apa fungsi finally dalam blok try–catch–finally?
+
+Jawaban:
+Finally digunakan untuk mengeksekusi kode yang harus selalu dijalankan, baik terjadi exception maupun tidak.
+
+3. Mengapa custom exception diperlukan?
+
+Jawaban:
+Custom exception diperlukan agar kesalahan dapat ditangani secara khusus sesuai kebutuhan aplikasi dan memberikan pesan yang lebih jelas.
+
+4. Berikan contoh kasus bisnis dalam POS yang membutuhkan custom exception.
+
+Jawaban:
+Contohnya saat pelanggan membeli produk melebihi stok yang tersedia, maka sistem akan memunculkan InsufficientStockException.
